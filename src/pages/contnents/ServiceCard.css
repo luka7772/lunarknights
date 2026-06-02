@@ -1,0 +1,39 @@
+.service-card {
+  background: #161616;
+  border: 1px solid #333;
+  padding: 30px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+  text-align: center;
+  height: 350px; 
+  transition: 0.3s;
+}
+
+.icon-wrapper {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  color: #ff9500;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  overflow: hidden; 
+}
+
+.service-cta {
+  margin-top: auto; 
+  padding: 10px 20px;
+  background: #009cfc;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}

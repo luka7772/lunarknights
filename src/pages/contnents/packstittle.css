@@ -1,0 +1,17 @@
+
+.packstittle-text {
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-size: clamp(8px, 4vw, 24px); 
+    color: white;
+    margin-top: 80px;
+}
+
+.highlight {
+    color: rgb(0, 208, 255);
+    font-weight: bold;
+    font-size: clamp(10px, 5vw, 28px);
+    margin: 5px;
+}

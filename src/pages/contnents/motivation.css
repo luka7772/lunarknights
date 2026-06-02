@@ -1,0 +1,14 @@
+.motivation-sentence {
+   font-size: clamp(1rem, 5vw, 1.7rem);
+   text-align: center;
+   max-height: 180px;
+   max-width: 600px;
+   margin: auto;
+   color: white;
+   background-color: transparent;
+   line-height: 30px;
+   padding: 0 10px;
+   overflow: hidden;
+   margin-top: 50px;
+   margin-bottom: 30px;
+}

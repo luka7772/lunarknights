@@ -1,0 +1,9 @@
+body{
+   background-color: rgb(56, 55, 55);
+    scrollbar-width: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}

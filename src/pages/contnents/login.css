@@ -1,0 +1,93 @@
+/* Login Container */
+.login-container {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  width: 400px;
+  max-width: 100%;
+  color: #fff;
+  margin-top: clamp(30px, 10vw + 30px, 100px);
+  margin: auto; 
+}
+
+.login-container:hover{
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgb(250, 167, 0);
+  transition: 1s;
+
+}
+
+/* Title Styling */
+.form-title {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #ff9500; /* Golden color */
+  margin-bottom: 10px;
+}
+
+/* Styling for input groups */
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 7px;
+  background-color: #333; /* Dark background for inputs */
+  color: #fff;
+  border: 2px solid #00d0ff; /* Golden border */
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #02bff3; /* Blue border on focus */
+  background-color: #444;
+}
+
+/* Submit Button Styling */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #0049d1; /* Blue background for button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #007afc; 
+  box-shadow: 2px 2px 8px rgba(0, 123, 255, 0.5), 0 4px 12px rgba(6, 122, 247, 0.8); 
+  transform: translateY(-2px); 
+}
+
+/* Register Link/Button Styling */
+.register-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.register-btn {
+  color: #ff9500; /* Golden color */
+  text-decoration: none;
+  font-size: 1rem;
+  transition: text-shadow 0.3s; /* Transition for text-shadow */
+}
+
+.register-btn:hover {
+  color: #4f8bf9; /* Blue color on hover */
+  text-decoration: underline;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Shadow effect on text */
+}

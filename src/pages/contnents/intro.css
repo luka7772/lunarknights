@@ -1,0 +1,91 @@
+.intro-box {
+  background-image: url('../../../public/images/3d-gym-equipment.jpg');
+  background-size: cover;
+  background-position: center;
+  
+  padding: 50px 40px 40px 40px;  /* Adjusted padding */
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  color: white;
+  max-width: 1200px;
+  height: 430px;  /* Set height */
+  position: relative;
+  overflow: hidden;
+}
+
+.intro-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.website-name {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #ff8c00;
+  text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.6);
+  margin-bottom: 10px;
+  z-index: 2;
+  position: relative;
+}
+
+.welcome-message {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 2;
+  position: relative;
+  max-width: 700px;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.85);
+  z-index: 2;
+  position: relative;
+  max-width: 700px;
+}
+
+.description ul {
+  list-style-type: disc;
+  margin-left: 40px;
+  line-height: 1.6;
+}
+
+.call-to-action {
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #ff8c00;
+  padding: 14px 18px;
+  border-radius: 50px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  margin-top: 30px;
+  position: relative;  /* Ensure it's not blocked by other elements */
+  z-index: 3;  /* Make sure the button is above other elements */
+}
+
+.call-to-action:hover {
+  background-color: #e77f00;
+  transform: translateY(-5px);
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);  /* Add shadow on hover */
+}
+
+.call-to-action:active {
+  transform: translateY(2px);  /* Slight press effect */
+}

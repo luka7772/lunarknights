@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000000; /* White background for the page */
+  color: #333; /* Dark grey text for general content */
+  height: 100%;
+}
+
+/* Main Contact Section */
+.contact-us-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #000; /* Black background for the main section */
+  color: #fff; /* White text color for contrast */
+  height: 100%;
+}
+
+/* Left Section */
+.contact-left-section {
+  width: 30%;
+  padding: 20px;
+  background-color: #222; /* Dark grey background for the left section */
+  border-radius: 8px;
+}
+
+.contact-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: gold; /* Golden color for the title */
+}
+
+.contact-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #ccc; /* Light grey for the description */
+}
+
+/* Form Styling */
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #ddd; /* Light grey label color */
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #444; /* Darker border for inputs */
+  border-radius: 5px;
+  background-color: #333; /* Dark background for input fields */
+  color: #fff; /* White text in input fields */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: gold; /* Gold border when focused */
+}
+
+.contact-form button {
+  padding: 12px 18px;
+  background-color: blue; /* Blue button background */
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Middle Section (Social Links) */
+.contact-middle-section {
+  width: 30%;
+  padding: 20px;
+  background-color: #222; /* Dark grey background */
+  border-radius: 8px;
+}
+
+.social-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: gold; 
+
+}
+
+.social-links a {
+  margin-right: 15px;
+}
+
+.social-logo {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+  
+}
+
+.social-logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(255, 221, 0, 0.8), 0 0 20px rgba(255, 221, 0, 0.6); 
+  transition: box-shadow 0.3s ease, transform 0.3s ease; 
+}
+
+/* Right Section (Contact Info) */
+.contact-right-section {
+  width: 30%;
+  padding: 20px;
+  background-color: #222; /* Dark grey background */
+  border-radius: 8px;
+}
+
+.contact-info-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: gold; /* Golden color for the title */
+}
+
+.contact-hours,
+.contact-email,
+.contact-phone,
+.contact-location {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #ddd; /* Light grey text for contact info */
+}
+
+.contact-phone,
+.contact-email {
+  font-weight: bold;
+}
+
+.contact-location {
+  color: #bbb; /* Slightly lighter grey for location */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-us-main {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contact-left-section,
+  .contact-middle-section,
+  .contact-right-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
+    margin-top: 15px;
+  }
+}
