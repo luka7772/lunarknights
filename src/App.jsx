@@ -32,6 +32,7 @@ function App() {
         <Route path="/trainers" element={<TrainersPage />} />
         <Route path="/packs" element={<UnderConstruction />} />
         <Route path="/comunity" element={<UnderConstruction />} />
+        <Route path="*" element={<UnderConstruction />} />
       </Routes>
     </div>
   );
