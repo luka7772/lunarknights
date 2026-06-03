@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/lunar-knights/', // 👈 must match the repo name exactly (lowercase)
+  // Replace 'lunar-knights2' with your actual repo name if it differs
+  base: '/lunar-knights2/', 
 })

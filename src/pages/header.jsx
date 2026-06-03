@@ -6,7 +6,7 @@ export function Header() {
     <div className="header">
      
        <Link to="/" className="title">
-       <img src="./vite.jpg" className='main-logo' />
+       <img src="../../public/vite.jpg" className='main-logo' />
         Lunar Knights
       </Link>
 

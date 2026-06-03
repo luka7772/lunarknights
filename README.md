@@ -11,32 +11,24 @@ Lunar Knights is a comprehensive gym management platform built as a high-fidelit
 
 ### 2. Pages & Modules
 * **HomePage:** The central hub providing a professional overview of the gym, promotional highlights, and quick-links to premium services.
-* **ServicePage:** Detailed catalog of our core gym offerings, including:
-    * **Personal Training:** Information on 1-on-1 expert coaching.
-    * **Group Classes:** Overview of high-intensity group training sessions.
-    * **Nutrition Coaching:** Evidence-based meal planning support.
-    * **Online Training:** Digital programming access.
-* **Workout Catalog:** A structured repository of fitness modules, currently featuring:
-    * **Chest Exercises:** A specialized module for upper body development.
-    * **Abs Exercises:** A targeted module for core strength.
- * **TrainersPage:** A directory of professional trainers featuring bios, specializations, and certifications, highlighting their role in the gym’s ecosystem.
-* **User Portal:**
-    * **Login & Register:** Fully interactive authentication interfaces with form handling, state validation, and error feedback.
-    * **Account/Profile:** A dedicated dashboard for members to manage their profile, view personal settings, and track their fitness journey.
+* **ServicePage:** Detailed catalog of our core gym offerings (Personal Training, Group Classes, Nutrition Coaching, Online Training).
+* **Workout Catalog:** A structured repository of fitness modules, currently featuring Chest and Abs development.
+* **TrainersPage:** A directory of professional trainers featuring bios, specializations, and certifications.
+* **User Portal:** Fully interactive authentication (Login/Register) and member profile dashboards.
 * **Contact Page:** Integrated communication portal for member inquiries and support.
 
 ### 3. Engineering Highlights
-* **Component-Driven System:** Reusable UI components (e.g., `ServiceCard`, `WorkoutCard`) minimize code duplication and ensure design consistency.
+* **Component-Driven System:** Reusable UI components (e.g., `ServiceCard`, `WorkoutCard`, `TrainerCard`) minimize code duplication and ensure design consistency.
 * **Dynamic State Simulation:** Uses React Context and internal state management to simulate role-based navigation and authentication flows.
-* **Data-Centric Design:** Content is decoupled from the UI, using data-mapping to structure content, making the future transition to a real database (SQLite/PDO) a modular task.
+* **Data-Centric Design:** Content is decoupled from the UI, using data-mapping to structure content, making the transition to a real database (SQLite/PDO) a modular task.
 
 ## Future Development Roadmap
-* **Backend Integration:** Implementing an SQLite database with PHP/PDO to handle real-world user accounts and bookings.
-* **Role-Based Dashboards:** Enabling unique views for:
+* **Backend Integration:** Implementing an SQLite database with PHP/PDO to handle real-world user accounts and dynamic bookings.
+* **Role-Based Dashboards:** Enabling unique, secure views for:
     * **Admins:** User management, class scheduling, and equipment monitoring.
     * **Trainers:** Roster management, exercise planning, and performance analytics.
     * **Members:** Real-time class enrollment, waitlists, and progress tracking.
-* **Community Features:** Adding in-app messaging and feedback mechanisms between trainers and members.
+* **Community Features:** Adding in-app messaging, class enrollment systems, and real-time feedback mechanisms between trainers and members.
 
 ## Technical Stack
 - **Library:** React.js (Hooks, Context, Functional Components)
@@ -49,4 +41,10 @@ Lunar Knights is a comprehensive gym management platform built as a high-fidelit
 
 1. **Clone the repository:**
    ```bash
-   git clone <your_repo_url>
+   git clone [https://github.com/luka7772/lunar-knights2.git](https://github.com/luka7772/lunar-knights2.git)
+   cd lunar-knights-main
+
+# after that  run comand 
+npm install
+
+npm run dev

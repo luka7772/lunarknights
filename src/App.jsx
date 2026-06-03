@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom'; // No HashRouter here
 import { Header } from './pages/header';
 import './App.css';
 import HomePage from './pages/Homepage';
@@ -32,7 +32,6 @@ function App() {
         <Route path="/trainers" element={<TrainersPage />} />
         <Route path="/packs" element={<UnderConstruction />} />
         <Route path="/comunity" element={<UnderConstruction />} />
-
       </Routes>
     </div>
   );
